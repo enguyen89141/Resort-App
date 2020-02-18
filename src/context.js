@@ -8,7 +8,7 @@ class RoomProvider extends Component {
         rooms: [],
         sortedRooms: [],
         featuredRooms: [],
-        loding: true
+        loading: true
     };
     componentDidMount() {
         let rooms = this.formatData(items);
